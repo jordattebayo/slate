@@ -31,7 +31,7 @@ export class SiteNav extends React.Component {
          <a href="/">Slate {Constants.values.version}</a>
          <div css={STYLES_NAVLINKS}>
             <a href="/system">Design System</a>
-            <a href="/commmunity-guidelines">Commmunity Guidelines</a>
+            <a href="/community-guidelines">Commmunity Guidelines</a>
          </div>
         
       </div>
