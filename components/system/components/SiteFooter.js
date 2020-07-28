@@ -20,10 +20,7 @@ const STYLES_FOOTERLINKS = css`
   }
 `;
 
-
-
 export class SiteFooter extends React.Component {
-  
 
   render() {
     return (
@@ -33,7 +30,6 @@ export class SiteFooter extends React.Component {
                 <a href="/system">Slack</a>
                 <a href="">Contact</a>
           </div>
-      
       </div>
     );
   }
