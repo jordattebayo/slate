@@ -6,6 +6,7 @@ import * as Constants from "~/common/constants";
 import * as Actions from "~/common/actions";
 
 import { css } from "@emotion/react";
+import TextLoop from "react-text-loop";
 
 import WebsitePrototypeWrapper from "~/components/core/WebsitePrototypeWrapper";
 import {
@@ -111,7 +112,9 @@ export default class IndexPage extends React.Component {
         <System.SiteNav />
 
         <section css={STYLES_HERO}>
-          <h1>Store your files, turn them into collections, and share them with the world — with Slate.</h1>
+          <h1>Store your <TextLoop interval={500} children={["files,", "images,", "PDFs,", "friends,"]} />
+          <br/>turn them into collections, 
+          <br/>and share them with the world — with Slate.</h1>
           <br/>
           
           <System.H1><a>Store files -></a></System.H1>
