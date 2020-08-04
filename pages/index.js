@@ -112,7 +112,7 @@ export default class IndexPage extends React.Component {
         <System.SiteNav />
 
         <section css={STYLES_HERO}>
-          <h1>Store your <TextLoop interval={500} children={["files,", "images,", "PDFs,", "friends,"]} />
+          <h1>Store your <TextLoop interval={1000} children={["files,", "images,", "PDFs,", "friends,"]} />
           <br/>turn them into collections, 
           <br/>and share them with the world — with Slate.</h1>
           <br/>
